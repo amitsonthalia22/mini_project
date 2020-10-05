@@ -1,0 +1,53 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+
+# Logs and databases #
+######################
+log
+*.log
+*.txt
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+/target/
+/test-output/*
+/test-output/*.*
+TestLogs/*
+TestLogs/*.*
+test-output/
+target/
+bin/
+*.bak
+
+# eclipse specific
+.settings
+.project
+.classpath
+.metadata
+
+
